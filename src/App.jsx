@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import { useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
+    <>
+    <Header />
     <main>
-      <h1>GameZone</h1>
-      <p>This is my first game UI development using react.</p>
-      <p>This is in the process of being built. So please stay tuned and also make sure to like subscribe and follow me!</p>
+      <h1>Welcome to GameZone!</h1>
+      <p>This is the first stage of your gaming journey.</p>
     </main>
+    <Footer />
+    </>
   );
 }
 
