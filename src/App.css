@@ -258,6 +258,7 @@
 
 .footer-logo h2 {
   font-size: 24px;
+  color: white;
 }
 
 .footer-logo span {
@@ -297,4 +298,109 @@
   padding-top: 16px;
   font-size: 14px;
   color: #cfcaca;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 80px 32px;
+  background: linear-gradient(135deg, #2c3a57, #172033);
+  color: black;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+
+.play-button {
+  background-color: #ab4455;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #e94560;
+}
+
+.game-section {
+  padding: 64px 32px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.game-section h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: black;
+}
+
+.game-section p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  color: black;
+}
+
+/*responsive design for small screen like tablet and mobile*/
+@media (max-width: 768px){
+  .header{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+  }
+  .nav-links{
+    gap: 12px;
+  }
+  .auth-buttons{
+    gap: 10px;
+  }
+  .footer-content{
+    gap: 24px;
+  }
+  .hero-section{
+    padding: 60px 16px;
+  }
+  .hero-section h1{
+    font-size: 36px;
+  }
+}
+
+/*responsive design for small screen like mobile*/
+@media (max-width: 480px){
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links{
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+  .auth-buttons{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-content{
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero-section{
+    padding: 40px 16px;
+  }
+  .hero-section h1{
+    font-size: 28px;
+  }
 }
