@@ -9,9 +9,19 @@ function App() {
     <Header />
     <main>
       <section className="hero-section">
-        <h1>Welcome to GameZone!</h1>
-        <p>This is the first stage of your gaming journey.</p>
-        <button className="play-button">Play Now</button>
+        <div className="hero-content">
+          <p className="game-category">Action</p>
+          <h1>Subway Surfers</h1>
+
+          <p>Join the excitement and run through the subway tunnels in this thrilling endless runner!</p>
+        </div>
+
+        <div className="hero-buttons">
+
+          <button className="read-more-button">Read More</button>
+          <button className="trailer-button">Watch Trailer</button>
+          </div>
+        
       </section>
 
       <section className="games-section">

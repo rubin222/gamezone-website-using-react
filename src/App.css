@@ -404,3 +404,182 @@
     font-size: 28px;
   }
 }
+
+
+/* Day 4 - New Gaming Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 28px;
+  background-color: #08090d;
+  color: white;
+  border-bottom: 1px solid #24262b;
+  gap: 20px;
+}
+
+/* GameZone Logo */
+.header-logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+  white-space: nowrap;
+}
+
+.header-logo span {
+  color: #8bdc35;
+}
+
+/* Navigation */
+.header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.header .nav-links a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 0;
+  transition: color 0.3s;
+}
+
+.header .nav-links a:hover,
+.header .nav-links a.active {
+  color: #8bdc35;
+}
+
+.header .nav-links a.active {
+  border-bottom: 2px solid #8bdc35;
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-actions button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header .login-button {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #8bdc35;
+  padding: 8px 14px;
+  border-radius: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.header .login-button:hover {
+  background-color: #8bdc35;
+  color: #08090d;
+}
+
+/*Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 100px 32px;
+  min-height: 420px;
+  box-sizing: border-box;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65)),
+    url('C:\Users\LOQ\Game Development\gamezone\gamezone-original\public\images\a_dramatic_dark_fantasy_landscape_scene_a_moody.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.game-category{
+  color: #8bdc35;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  color: #cccccc;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 16px;
+}
+
+.read-more-button,
+.trailer-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-more-button {
+  background-color: #8bdc35;
+  color: #08090d;
+  border: none;
+}
+
+.trailer-button {
+  background-color: transparent;
+  color: #8bdc35;
+  border: 1px solid #8bdc35;
+}
+
+.hero-content{
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.hero-content h1{
+  text-align: left;
+}
+
+.hero-content p{
+  text-align: left;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-buttons{
+  margin-top: 20px;
+}

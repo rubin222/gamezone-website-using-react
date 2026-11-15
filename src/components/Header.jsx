@@ -1,26 +1,41 @@
-function Header(){
-    return (
-        <header className="header">
-        <div className="logo">
-            GameZone<span>.</span>
-        </div>
 
-        <nav className="nav-links">
-            <a href="/">Home</a>
-            <a href="/games">Games</a>
-            <a href="/about">About</a>
-        </nav>
+function Header() {
+  return (
+    <header className="header">
 
-        <div className="auth-buttons">
-            <a href="/login" className="login-button">Login</a>
-            <a href="/signup" className="signup-button">Sign Up</a>
-        </div>
+      {/* Website Logo */}
+      <div className="header-logo">
+        GAME<span>ZONE</span>
+      </div>
 
+      {/* Navigation Links */}
+      <nav className="nav-links">
+        <a href="/" className="active">Home</a>
+        <a href="/news">News</a>
+        <a href="/games">Games</a>
+        <a href="/reviews">Reviews</a>
+        <a href="/esports">Esports</a>
+        <a href="/videos">Videos</a>
+        <a href="/community">Community</a>
+      </nav>
+
+      {/* Header Actions */}
+      <div className="header-actions">
+        <button className="search-button" aria-label="Search">
+          ⌕
+        </button>
+
+        <button className="notification-button" aria-label="Notifications">
+          ♧
+        </button>
+
+        <a href="/login" className="login-button">
+          Login
+        </a>
+      </div>
 
     </header>
-    );
-
-
-
+  );
 }
+
 export default Header;
