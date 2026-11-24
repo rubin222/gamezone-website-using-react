@@ -20,9 +20,9 @@ function LatestNews() {
                 </div>
                  <div className="news-card">
           <img
-            src="https://images.unsplash.com/photo-1493711662062-fa541023f43d"
-            alt="Video game controller"
-          />
+  src="https://images.unsplash.com/photo-1593305841991-05c297ba4575"
+  alt="Gaming setup"
+/>
           <span>NEWS</span>
           <h3>Gaming Updates</h3>
           <p>Stay updated with the latest gaming news.</p>
@@ -34,3 +34,4 @@ function LatestNews() {
 
     )
 }
+export default LatestNews;

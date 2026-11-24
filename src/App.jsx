@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import LatestNews from './components/LatestNews'
 
 function App() {
 
@@ -24,10 +25,13 @@ function App() {
         
       </section>
 
+      
+
+      <LatestNews />
       <section className="games-section">
         <h2>Ready to Play?</h2>
         <p>Your gaming experience starts here!</p>
-      </section>
+        </section>
     </main>
     <Footer />
     </>
